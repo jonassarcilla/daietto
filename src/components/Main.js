@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 const Main = () => {
     return (
-        <main className="relative flex flex-col container mx-auto px-6">
+        <main className="relative flex flex-col container mx-auto px-6 max-w-screen-sm">
             {/* Hero Section */}
            <section className="flex flex-col">
                 <div className="flex flex-col">
@@ -42,9 +42,9 @@ const Main = () => {
            
            {/* Feature 1 */}
            <section className="z-10">
-                <div>
+                <div className="my-4">
                     <img src="/assets/top_divider.svg" alt="Daeitto - Top divider" />
-                    <h2 className="text-accent text-6xl font-bold">
+                    <h2 className="text-accent text-6xl font-bold my-4">
                         <strong className="text-primary">Discover </strong>
                         how easy it is to create healthy foods
                     </h2>
@@ -52,7 +52,15 @@ const Main = () => {
            </section>
 
            {/* Feature 2 */}
-           <section className="my-12"></section>
+           <section className="z-10">
+                <div className="my-4">
+                    <img src="/assets/top_divider.svg" alt="Daeitto - Top divider" />
+                    <h2 className="text-accent text-6xl font-bold my-4">
+                        <strong className="text-primary">Conoce </strong>
+                        el detalle de los alimentos que consumes
+                    </h2>
+                </div>
+           </section>
         </main>
     )
 }
