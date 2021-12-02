@@ -7,7 +7,8 @@ module.exports = {
       'primary': '#6CC57C',
       'secondary': '#F2F6FF',
       'accent': '#23233C',
-      'muted': '#7F8DA0'
+      'muted': '#7F8DA0',
+      'tertiary': '#3A466D'
     },
     extend: {
       spacing: {

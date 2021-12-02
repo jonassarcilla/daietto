@@ -48,6 +48,10 @@ const Main = () => {
                         <strong className="text-primary">Discover </strong>
                         how easy it is to create healthy foods
                     </h2>
+                    <p className="text-muted text-xl py-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin egestas accumsan odio, cursus laoreet mauris porttitor non. Aliquam eu neque nibh. Aenean non pellentesque justo.</p>
+                </div>
+                <div>
+                    <div></div>
                 </div>
            </section>
 
@@ -59,6 +63,7 @@ const Main = () => {
                         <strong className="text-primary">Conoce </strong>
                         el detalle de los alimentos que consumes
                     </h2>
+                    <p className="text-muted text-xl py-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin egestas accumsan odio, cursus laoreet mauris porttitor non. Aliquam eu neque nibh. Aenean non pellentesque justo.</p>
                 </div>
            </section>
         </main>
