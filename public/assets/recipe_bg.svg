@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="456" height="590" viewBox="0 0 456 590">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.166" y1="0.237" x2="0.938" y2="0.965" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f2f6ff"/>
+      <stop offset="0.646" stop-color="#f2f6ff"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+    <filter id="recipe_bg" x="0" y="0" width="456" height="590" filterUnits="userSpaceOnUse">
+      <feOffset dx="50" dy="50" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="25" result="blur"/>
+      <feFlood flood-color="#abb6cc" flood-opacity="0.2"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#recipe_bg)">
+    <path id="recipe_bg-2" data-name="recipe_bg" d="M153,0h0A153,153,0,0,1,306,153V390a50,50,0,0,1-50,50H50A50,50,0,0,1,0,390V153A153,153,0,0,1,153,0Z" transform="translate(25 25)" fill="url(#linear-gradient)"/>
+  </g>
+</svg>

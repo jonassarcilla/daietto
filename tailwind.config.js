@@ -3,14 +3,18 @@ module.exports = {
   purge: ['./src/pages/**/*.{js,ts,jsx,tsx}', './src/components/**/*.{js,ts,jsx,tsx}'],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    colors: {
-      'primary': '#6CC57C',
-      'secondary': '#F2F6FF',
-      'accent': '#23233C',
-      'muted': '#7F8DA0',
-      'tertiary': '#3A466D'
-    },
     extend: {
+      backgroundImage: {
+        'recipe-bg': "url('/assets/recipe_bg.svg')",
+       },
+      colors: {
+        'primary': '#6CC57C',
+        'secondary': '#F2F6FF',
+        'accent': '#23233C',
+        'accent-2': '#EE6A6E',
+        'muted': '#7F8DA0',
+        'tertiary': '#3A466D'
+      },
       spacing: {
         '1/2': '50%',
         '1/3': '33.333333%',
