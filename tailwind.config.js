@@ -53,8 +53,8 @@ module.exports = {
       },
       screens: {
         'mq-smartphone-pl': {'min-device-width': '320px', 'max-device-width': '480px'}, //Smartphones (portrait and landscape)
-        'mq-smartphone-l': { 'min': '321px' }, //Smartphones (landscape)
-        'mq-smartphone-p': {'max': '320px'}, //Smartphones (portrait)
+        'mq-smartphone-l': { 'min': '321px', 'orientation': 'landscape' }, //Smartphones (landscape)
+        'mq-smartphone-p': {'max': '320px', 'orientation': 'portrait'}, //Smartphones (portrait)
         'mq-ipads': {'min-device-width': '768px', 'max-device-width': '1024px'}, //iPads (portrait and landscape)
         'mq-ipads-l': {'min-device-width': '768px', 'max-device-width': '1024px', 'orientation': 'landscape'}, //iPads (landscape)
         'mq-ipads-p': {'min-device-width': '768px', 'max-device-width': '1024px', 'orientation': 'portrait'}, //iPads (portrait)

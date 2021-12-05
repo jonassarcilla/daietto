@@ -2,12 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-
-.recipe img {
-    position: absolute;
-    top: 2em;
-    left: 4em;
-    width: 90%;
+.bg-recipe-bg {
+    background-repeat: no-repeat;
+    background-size: 250px;
+    background-position: top 3.2em left 1.7em;
 }
 
 @media screen and (min-height: 568px) {
