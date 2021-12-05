@@ -7,6 +7,9 @@ module.exports = {
       backgroundImage: {
         'recipe-bg': "url('/assets/recipe_bg.svg')",
        },
+      backgroundPosition: {
+        'recipe-bg-position': "left 10% top -10%",
+      },
       colors: {
         'primary': '#6CC57C',
         'secondary': '#F2F6FF',

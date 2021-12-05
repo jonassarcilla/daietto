@@ -3,6 +3,13 @@
 @tailwind utilities;
 
 
+.recipe img {
+    position: absolute;
+    top: 2em;
+    left: 4em;
+    width: 90%;
+}
+
 @media screen and (min-height: 568px) {
     img.app_results {
         bottom: -7rem;

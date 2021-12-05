@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 const Main = () => {
     return (
-        <main className="relative flex flex-col container mx-auto px-6 max-w-screen-sm">
+        <main className="relative flex flex-col container mx-auto px-8 max-w-screen-sm">
             {/* Hero Section */}
            <section className="flex flex-col">
                 <div className="flex flex-col">
@@ -48,38 +48,57 @@ const Main = () => {
                         <strong className="text-primary">Discover </strong>
                         how easy it is to create healthy foods
                     </h2>
-                    <p className="text-muted text-xl py-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin egestas accumsan odio, cursus laoreet mauris porttitor non. Aliquam eu neque nibh. Aenean non pellentesque justo.</p>
+                    <p className="text-muted text-xl pt-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin egestas accumsan odio, cursus laoreet mauris porttitor non. Aliquam eu neque nibh. Aenean non pellentesque justo.</p>
                 </div>
-                {/* Recipe section */}
-                <div className="flex flex-col items-center justify-center">
-                    <div className="flex flex-col items-center justify-center bg-recipe-bg bg-center bg-no-repeat w-full">
-                        <div className="mx-auto h-screen">
-                            <div className="my-6">
-                                <Image src="/assets/recipe_1.png" alt="Daietto - Recipe 1" width="250" height="250"/>
+                
+                <div>
+                    <div className="h-full relative overflow-hidden py-8">
+                        <div className="">
+                            <div className="relative z-10 flex flex-col justify-center justify-items-center items-center mx-24">
+                                <img className="w-48 h-48 rounded-full" src="/assets/recipe_1.png" alt="Daietto - Recipe 1" width="250" height="250"/>
                             </div>
-                            <h3 className="text-4xl font-bold w-1/4">Ensalada mixta</h3>
-                            <div className="flex space-x-4 py-4">
-                                <p className="text-2xl font-bold text-accent-2">243<span className="block text-xs font-normal text-right text-muted">calories</span></p>
-                                <p className="text-2xl font-bold">2,8g<span className="block text-xs font-normal text-right text-muted">fats</span></p>
+                            <div className="z-10 flex flex-col mx-24">
+                                <h3 className="z-10 text-4xl font-bold ml-12">Ensalada mixta</h3>
+                                <div className="flex z-10 space-x-8 py-4 ml-12">
+                                    <p className="text-2xl font-bold text-accent-2">243<span className="block text-xs font-normal text-right text-muted">calories</span></p>
+                                    <p className="text-2xl font-bold">2,8g<span className="block text-xs font-normal text-right text-muted">fats</span></p>
+                                </div>
                             </div>
-                            <button class="rounded-full float-right bg-accent w-16 h-16 mr-2 flex flex-col justify-center align-middle items-center">
-                                <Image src="/assets/arrow-right.svg" alt="Daietto - Read more" width="21" height="21"/>
-                            </button>
+                            <div class="z-10 flex float-right mx-16">
+                                <button class="z-10 rounded-full float-right bg-accent w-16 h-16 mr-2 flex flex-col justify-center align-middle items-center">
+                                    <Image className="z-10" src="/assets/arrow-right.svg" alt="Daietto - Read more" width="21" height="21"/>
+                                </button>
+                            </div>
+                        </div>
+                        
+                        <div className="recipe w-full z-0 flex flex-col justify-center align-middle items-center">
+                            <img className="object-contain" src="/assets/recipe_bg.svg"></img>
                         </div>
                     </div>
-                    <div className="flex flex-col items-center justify-center bg-recipe-bg bg-center bg-no-repeat w-full">
-                        <div className="mx-auto h-screen">
-                            <div className="my-6">
-                                <Image src="/assets/recipe_1.png" alt="Daietto - Recipe 1" width="250" height="250"/>
+                </div>
+
+                <div>
+                    <div className="h-full relative overflow-hidden py-8">
+                        <div className="">
+                            <div className="relative z-10 flex flex-col justify-center justify-items-center items-center mx-24">
+                                <img className="w-48 h-48 rounded-full" src="/assets/recipe_2.png" alt="Daietto - Recipe 2" width="250" height="250"/>
                             </div>
-                            <h3 className="text-4xl font-bold w-1/4">Ensalada mixta</h3>
-                            <div className="flex space-x-4 py-4">
-                                <p className="text-2xl font-bold text-accent-2">243<span className="block text-xs font-normal text-right text-muted">calories</span></p>
-                                <p className="text-2xl font-bold">2,8g<span className="block text-xs font-normal text-right text-muted">fats</span></p>
+                            <div className="z-10 flex flex-col mx-24">
+                                <h3 className="z-10 text-4xl font-bold ml-12">Ensalada con pollo</h3>
+                                <div className="flex z-10 space-x-8 py-4 ml-12">
+                                    <p className="text-2xl font-bold text-accent-2">543<span className="block text-xs font-normal text-right text-muted">calories</span></p>
+                                    <p className="text-2xl font-bold">2,8g<span className="block text-xs font-normal text-right text-muted">fats</span></p>
+                                </div>
                             </div>
-                            <button class="rounded-full float-right bg-accent w-16 h-16 mr-2 flex flex-col justify-center align-middle items-center">
-                                <Image src="/assets/arrow-right.svg" alt="Daietto - Read more" width="21" height="21"/>
-                            </button>
+                            <div class="z-10 flex float-right mx-16">
+                                <button class="z-10 rounded-full float-right bg-accent w-16 h-16 mr-2 flex flex-col justify-center align-middle items-center">
+                                    <Image className="z-10" src="/assets/arrow-right.svg" alt="Daietto - Read more" width="21" height="21"/>
+                                </button>
+                            </div>
+                        </div>
+                        
+                        <div className="recipe w-full z-0 flex flex-col justify-center align-middle items-center">
+                            <img className="object-contain" src="/assets/recipe_bg.svg"></img>
                         </div>
                     </div>
                 </div>
@@ -93,7 +112,29 @@ const Main = () => {
                         <strong className="text-primary">Conoce </strong>
                         el detalle de los alimentos que consumes
                     </h2>
-                    <p className="text-muted text-xl py-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin egestas accumsan odio, cursus laoreet mauris porttitor non. Aliquam eu neque nibh. Aenean non pellentesque justo.</p>
+                    <p className="text-muted text-xl pt-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin egestas accumsan odio, cursus laoreet mauris porttitor non. Aliquam eu neque nibh. Aenean non pellentesque justo.</p>
+                </div>
+
+                <div>
+                    <img className="z-10 object-cover" src="/assets/app_details.png" alt="Daietto - App Details"/>
+                </div>
+
+                <div class="grid grid-cols-4 gap-4 justify-center justify-items-center items-center">
+                    <div className="rounded-full w-32 h-32">
+                        <img className="object-fit" src="/assets/ingredient_1.png" alt="Daietto - Recipe 1"/>
+                    </div>
+                    
+                    <div className="rounded-full w-32 h-32">
+                        <img className="object-fit" src="/assets/ingredient_2.png" alt="Daietto - Recipe 1"/>
+                    </div>
+
+                    <div className="rounded-full w-32 h-32">
+                        <img className="object-fit" src="/assets/ingredient_3.png" alt="Daietto - Recipe 1"/>
+                    </div>
+
+                    <div className="rounded-full w-32 h-32">
+                        <img className="object-fit" src="/assets/ingredient_4.png" alt="Daietto - Recipe 1"/>
+                    </div>
                 </div>
            </section>
         </main>

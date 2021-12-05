@@ -5,17 +5,17 @@ import Footer from '../components/Footer'
 
 export default function Home() {
   return (
-    <div className="bg-secondary">
+    <div>
       <Head>
         <title>Daeitto</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Header/>
-
-      <Main/>
-
-      <Footer/>
+      <div className="bg-secondary max-w-screen-sm mx-auto">
+        <Header/>
+        <Main/>
+        <Footer/>
+      </div>
     </div>
   )
 }
