@@ -2,7 +2,7 @@ import React from 'react'
 
 const Footer = () => {
     return (
-        <footer className="relative flex flex-col container mx-auto px-8 items-center">
+        <footer className="relative flex flex-col container mx-auto px-4 items-center">
             <div className="text-center py-8">
                 <h2 className="font-bold text-4xl flex-auto justify-center items-center py-6">
                     <a href="/" className="flex flex-row flex-wrap gap-x-6 items-center text-accent">
