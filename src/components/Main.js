@@ -57,7 +57,7 @@ const Main = () => {
                             <div className="relative z-10 flex flex-col justify-center justify-items-center items-center mx-24">
                                 <img className="w-36 h-36 rounded-full" src="/assets/recipe_1.png" alt="Daietto - Recipe 1" width="250" height="250"/>
                             </div>
-                            <div className="z-10 flex flex-col mx-12">
+                            <div className="z-10 flex flex-col mx-16">
                                 <h3 className="z-10 text-2xl font-bold">Ensalada mixta</h3>
                                 <div className="flex z-10 space-x-8 pt-4">
                                     <p className="text-xl font-bold text-accent-2">243<span className="block text-xs font-normal text-right text-muted">calories</span></p>
@@ -65,7 +65,7 @@ const Main = () => {
                                 </div>
                             </div>
                             <div class="z-10 flex flex-col items-end">
-                                <button class="z-10 rounded-full bg-accent w-12 h-12 mr-11 flex flex-col justify-center align-middle items-center">
+                                <button class="z-10 rounded-full bg-accent w-12 h-12 mr-8 flex flex-col justify-center align-middle items-center">
                                     <Image className="z-10" src="/assets/arrow-right.svg" alt="Daietto - Read more" width="21" height="21"/>
                                 </button>
                             </div>
@@ -80,14 +80,14 @@ const Main = () => {
                                 <img className="w-36 h-36 rounded-full" src="/assets/recipe_2.png" alt="Daietto - Recipe 2" width="250" height="250"/>
                             </div>
                             <div className="z-10 flex flex-col mx-12">
-                                <h3 className="z-10 text-2xl font-bold">Ensalada con pollo</h3>
+                                <h3 className="z-10 text-2xl font-bold">Ensalada conpollo</h3>
                                 <div className="flex z-10 space-x-8 pt-4">
                                     <p className="text-xl font-bold text-accent-2">543<span className="block text-xs font-normal text-right text-muted">calories</span></p>
                                     <p className="text-xl font-bold">2,8g<span className="block text-xs font-normal text-right text-muted">fats</span></p>
                                 </div>
                             </div>
                             <div class="z-10 flex flex-col items-end">
-                                <button class="z-10 rounded-full bg-accent w-12 h-12 mr-11 flex flex-col justify-center align-middle items-center">
+                                <button class="z-10 rounded-full bg-accent w-12 h-12 mr-8 flex flex-col justify-center align-middle items-center">
                                     <Image className="z-10" src="/assets/arrow-right.svg" alt="Daietto - Read more" width="21" height="21"/>
                                 </button>
                             </div>
