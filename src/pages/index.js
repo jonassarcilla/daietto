@@ -9,6 +9,7 @@ export default function Home() {
       <Head>
         <title>Daeitto</title>
         <link rel="icon" href="/favicon.ico" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
       </Head>
 
       <div className="bg-secondary max-w-screen-sm mx-auto">
